@@ -1,6 +1,6 @@
 import pandas as pd
 
-# tuple to series
+# 튜플을 시리즈로 변환 (인덱스 옵션 지정)
 tup_data = ('영인', '2010-05-01', '여', True)
 sr = pd.Series(tup_data, index=['이름', '생년월일', '성별', '학생여부'])
 print(sr)
